@@ -55,7 +55,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content
 /* SECTIONS */
 section{position:relative;z-index:1;padding:100px 60px;}
 .section-header{display:flex;align-items:center;gap:16px;margin-bottom:60px;}
-.section-num{font-family:'Orbitron',monospace;font-size:0.65rem;color:var(--accent);letter-spacing:3px;}
+.section-num{font-family:'Orbitron',monospace;font-size:1.5rem;color:var(--accent);letter-spacing:3px;}
 .section-title{font-family:'Orbitron',monospace;font-size:clamp(1.4rem,3vw,2rem);font-weight:700;color:var(--white);letter-spacing:1px;}
 .section-line{flex:1;height:1px;background:linear-gradient(90deg,var(--border),transparent);}
 
@@ -188,7 +188,7 @@ footer{padding:24px 60px;border-top:1px solid var(--border);display:flex;justify
 <div class="cursor-ring" id="cursorRing"></div>
 
 <nav>
-  <a href="#hero" class="nav-logo">JJR</a>
+  <a href="#hero" class="nav-logo">Engineering the Future of Flight</a>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#experience">Experience</a></li>
@@ -211,8 +211,8 @@ footer{padding:24px 60px;border-top:1px solid var(--border);display:flex;justify
         <a href="#contact" class="btn-secondary">Get In Touch</a>
       </div>
       <div class="hero-stats">
-        <div><div class="stat-num">1.9<span>+</span></div><div class="stat-label">Years at Aakash</div></div>
-        <div><div class="stat-num">3<span>+</span></div><div class="stat-label">Organisations</div></div>
+        <div><div class="stat-num">3<span>+</span></div><div class="stat-label">Experience</div></div>
+        <div><div class="stat-num">2<span>+</span></div><div class="stat-label">Organisations</div></div>
         <div><div class="stat-num">2</div><div class="stat-label">SAE Competitions</div></div>
         <div><div class="stat-num">M<span>.</span>Tech</div><div class="stat-label">Defence Aerospace</div></div>
       </div>
@@ -233,7 +233,7 @@ footer{padding:24px 60px;border-top:1px solid var(--border);display:flex;justify
   </div>
   <div class="about-grid">
     <div class="about-text reveal">
-      <p>Results-oriented design and fabrication engineer with deep expertise in <strong>automotive, unmanned, and mechatronic systems</strong>. I bridge the gap between conceptual design and physical reality — from CAD model to composite layup to flying system.</p>
+      <p>Results-oriented design and fabrication engineer with deep expertise in <strong>automotive, unmanned, and mechatronic systems</strong>. I bridge the gap between conceptual design and physical reality ,from CAD model to composite layup to flying system.</p>
       <p>My work spans <strong>mechanical design, embedded systems programming, and composite fabrication</strong>, giving me an end-to-end perspective that few engineers possess. Whether it's a carbon fibre wing structure or an STM32-powered flight controller integration, I approach every challenge with precision and curiosity.</p>
       <p>Currently at <strong>Aakash Aerospace</strong>, a defence-oriented drone manufacturer based in Tamil Nadu, leading UAV mechanical design while pushing boundaries in autonomous systems and lightweight structural engineering.</p>
     </div>
@@ -378,7 +378,7 @@ footer{padding:24px 60px;border-top:1px solid var(--border);display:flex;justify
     <!-- SAE Baja — with real photo as thumbnail -->
     <div class="project-card reveal">
       <div class="project-thumb">
-         <img src="images/A_logo.svg" alt="profile pic">
+         <img src="images\cover_baja.jpg" alt="profile pic">
         <div class="project-thumb-overlay">
           <div class="yt-play-badge">
             <span style="font-family:Orbitron,monospace;font-size:0.6rem;color:rgba(255,255,255,0.8);letter-spacing:1px;">SAE BAJA INDIA 2020</span>
@@ -402,23 +402,7 @@ footer{padding:24px 60px;border-top:1px solid var(--border);display:flex;justify
     <!-- VTOL Quadplane -->
     <div class="project-card reveal">
       <div class="project-thumb" style="background:#05070f;display:flex;align-items:center;justify-content:center;position:relative;padding-top:52%;">
-        <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:8px;">
-          <svg width="180" height="110" viewBox="0 0 180 110" fill="none" opacity="0.75">
-            <path d="M90 52 L18 70 L90 62 L162 70 Z" stroke="#00c8ff" stroke-width="1.5" fill="rgba(0,200,255,0.05)"/>
-            <path d="M90 52 L80 78 L90 62 L100 78 Z" stroke="#00c8ff" stroke-width="1.5" fill="none"/>
-            <line x1="40" y1="62" x2="22" y2="56" stroke="#00c8ff" stroke-width="1"/>
-            <line x1="40" y1="68" x2="22" y2="74" stroke="#00c8ff" stroke-width="1"/>
-            <line x1="140" y1="62" x2="158" y2="56" stroke="#00c8ff" stroke-width="1"/>
-            <line x1="140" y1="68" x2="158" y2="74" stroke="#00c8ff" stroke-width="1"/>
-            <circle cx="20" cy="56" r="7" stroke="#00c8ff" stroke-width="1.2"/>
-            <circle cx="20" cy="74" r="7" stroke="#00c8ff" stroke-width="1.2"/>
-            <circle cx="160" cy="56" r="7" stroke="#00c8ff" stroke-width="1.2"/>
-            <circle cx="160" cy="74" r="7" stroke="#00c8ff" stroke-width="1.2"/>
-            <circle cx="90" cy="52" r="6" stroke="#00c8ff" stroke-width="1.2"/>
-            <text x="90" y="100" fill="#00c8ff" font-size="8" font-family="monospace" text-anchor="middle" font-weight="bold">QUADPLANE VTOL</text>
-            <text x="90" y="109" fill="#3a5070" font-size="6.5" font-family="monospace" text-anchor="middle">2.7m · 15kg · SD7062 · AR8.37</text>
-          </svg>
-        </div>
+         <img src="images\aakash.jpg" alt="aakash pic">
         <div class="project-thumb-overlay"></div>
       </div>
       <div class="project-body">
@@ -434,10 +418,171 @@ footer{padding:24px 60px;border-top:1px solid var(--border);display:flex;justify
   </div>
 </section>
 
+<!-- PHOTO GALLERY — Auto-scroll strip -->
+<section id="gallery">
+  <div class="section-header reveal">
+    <span class="section-num">04</span>
+    <h2 class="section-title">Gallery</h2>
+    <div class="section-line"></div>
+  </div>
+
+  <!-- TRACK WRAPPER -->
+  <div class="gallery-track-outer">
+    <div class="gallery-track" id="galleryTrack">
+
+      <!-- ── ADD YOUR IMAGES HERE — duplicate the block below for each photo ── -->
+      <div class="gallery-slide">
+        <img src="images/Anemometer.jpeg" alt="SAE Baja 2020"/>
+        <div class="gallery-caption">Pre FLight checks</div>
+      </div>
+      <div class="gallery-slide">
+        <img src="images/baja_chasis.jpg" alt="Aakash Aerospace"/>
+        <div class="gallery-caption">Chasis Build</div>
+      </div>
+      <div class="gallery-slide">
+        <img src="images/front impact back fixed.png" alt="Buggy Build"/>
+        <div class="gallery-caption">ANSYS_impact</div>
+      </div>
+      <div class="gallery-slide">
+        <img src="images/proto1.jpg" alt="Competition Day"/>
+        <div class="gallery-caption">Competition Day</div>
+      </div>
+      <div class="gallery-slide">
+        <img src="images/sae_final.jpeg" alt="UAV Airframe"/>
+        <div class="gallery-caption">UAV Airframe</div>
+      </div>
+      <div class="gallery-slide">
+        <img src="images/team_aquila.jpg" alt="UAV Airframe"/>
+        <div class="gallery-caption">Team</div>
+      </div>
+      <div class="gallery-slide">
+        <img src="images/team2.jpg" alt="UAV Airframe"/>
+        <div class="gallery-caption">Competition Day</div>
+      </div>
+      <div class="gallery-slide">
+        <img src="images/uavs.jpeg" alt="UAV Airframe"/>
+        <div class="gallery-caption">Fleet</div>
+      </div>
+      <div class="gallery-slide">
+        <img src="images/load test.png" alt="Drone Testing"/>
+        <div class="gallery-caption">ANSYS_load</div>
+      </div>
+
+      <!-- JS duplicates these for seamless loop — no action needed -->
+    </div>
+  </div>
+</section>
+
+<style>
+/* ── GALLERY STRIP ── */
+.gallery-track-outer {
+  overflow: hidden;
+  width: 100%;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+}
+
+.gallery-track {
+  display: flex;
+  gap: 1.2rem;
+  width: max-content;
+  animation: galleryScroll 30s linear infinite;
+  will-change: transform;
+  padding: 1rem 0 1.5rem;
+}
+
+.gallery-track.paused {
+  animation-play-state: paused;
+}
+
+@keyframes galleryScroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+.gallery-slide {
+  position: relative;
+  flex-shrink: 0;
+  width: 320px;
+  height: 210px;
+  overflow: hidden;
+  border: 1px solid #1a1a2e;
+  cursor: pointer;
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.45s ease,
+              z-index 0s;
+  z-index: 1;
+}
+
+.gallery-slide:hover {
+  transform: scale(1.18) translateY(-8px);
+  box-shadow: 0 24px 60px rgba(0,0,0,0.7), 0 0 0 2px #e8431a;
+  z-index: 10;
+}
+
+.gallery-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: brightness(0.8) saturate(0.85);
+  transition: filter 0.4s ease;
+}
+
+.gallery-slide:hover img {
+  filter: brightness(1) saturate(1.1);
+}
+
+.gallery-caption {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  padding: 0.6rem 0.9rem;
+  background: linear-gradient(to top, rgba(10,10,18,0.95), transparent);
+  font-family: 'Orbitron', monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.12em;
+  color: rgba(255,255,255,0.7);
+  text-transform: uppercase;
+  transform: translateY(100%);
+  transition: transform 0.35s ease;
+}
+
+.gallery-slide:hover .gallery-caption {
+  transform: translateY(0);
+}
+</style>
+
+<script>
+(function () {
+  const track = document.getElementById('galleryTrack');
+  if (!track) return;
+
+  // Duplicate slides for seamless infinite loop
+  const slides = Array.from(track.children);
+  slides.forEach(slide => {
+    const clone = slide.cloneNode(true);
+    track.appendChild(clone);
+  });
+
+  // Pause on any slide hover
+  track.addEventListener('mouseover', e => {
+    if (e.target.closest('.gallery-slide')) {
+      track.classList.add('paused');
+    }
+  });
+  track.addEventListener('mouseout', e => {
+    if (e.target.closest('.gallery-slide')) {
+      track.classList.remove('paused');
+    }
+  });
+})();
+</script>
+
+
 <!-- SKILLS -->
 <section id="skills">
   <div class="section-header reveal">
-    <span class="section-num">04</span>
+    <span class="section-num">05</span>
     <h2 class="section-title">Technical Proficiency</h2>
     <div class="section-line"></div>
   </div>
@@ -473,7 +618,7 @@ footer{padding:24px 60px;border-top:1px solid var(--border);display:flex;justify
 <!-- EDUCATION -->
 <section id="education">
   <div class="section-header reveal">
-    <span class="section-num">05</span>
+    <span class="section-num">06</span>
     <h2 class="section-title">Education</h2>
     <div class="section-line"></div>
   </div>
